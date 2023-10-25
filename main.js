@@ -6,4 +6,4 @@ let suffix = '#109'
 const password = nomeUtente + eta + colore + suffix;
 
 document.getElementById("titolo").innerHTML = "Benvenuto/a, " + nomeUtente;
-document.getElementById("eta").innerHTML = `La tua password è ${password}`;
+document.getElementById("password").innerHTML = `La tua password è ${password}`;
